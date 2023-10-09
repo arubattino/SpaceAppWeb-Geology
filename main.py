@@ -50,7 +50,7 @@ def main():
                             bx,
                             date_image)
 
-        _, name_image, date_image  = service.download_data_EMIT('arubattino','CONAEalex0123', bx, date, 'EMITL2BMIN')
+        _, name_image, date_image  = service.download_data_EMIT(user,password, bx, date, 'EMITL2BMIN')
 
         nc_file = os.path.join('./data/'+folder_name, name_image)
 
