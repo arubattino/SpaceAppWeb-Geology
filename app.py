@@ -48,7 +48,6 @@ if __name__ == "__main__":
                 
                 dbc.Row([
                     dbc.Col(html.Img(src=LOGO, height="35", ), width={"size": 0, "offset": 2},),
-                    #dbc.Col(dbc.NavbarBrand("Geology", className='ml-0'), width={"size": 0, "offset": 1}, ),
                     dbc.Col(dbc.Select(id='year-input', options=[
                                                                                 {"label": "2023", "value": "2023"},
                                                                                 {"label": "2022", "value": "2022"},
@@ -104,7 +103,6 @@ if __name__ == "__main__":
 
             date = f'{year}-{month}-01,{year}-{month}-30'
 
-            #print('python main.py --u ' + username + ' --p ' + password + ' --d ' + date  + ' --bx ' + '"'+"'"+bx+"'"+'"')
             os.system('python main.py --u ' + username + ' --p ' + password + ' --d ' + date  + ' --bx ' + '"'+"'"+bx+"'"+'"')
 
     
