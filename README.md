@@ -2,6 +2,7 @@
 
 How to use: run app.py and http://127.0.0.1:8050/ in your browser.
 
+If you use Docker, you can build the container I provide with all the necessary requirements and more.
 
 ## Docker
 #### Container Description: 
