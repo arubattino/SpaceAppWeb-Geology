@@ -55,7 +55,7 @@ def download_data_EMIT(user, password, bx, date, short_nm):
 
 
             results = earthaccess.search_data(
-                short_name='EMITL2ARFL',
+                short_name=short_nm,
                 cloud_hosted=True,
                 bounding_box=bx,
                 temporal=date,
